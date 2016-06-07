@@ -9,8 +9,18 @@ body {
   margin: 25px 0;
 }
 
-.pieLabel {
-  font-size: .9em;
+.chart-label,
+.chart-label:hover,
+.chart-label:active {
+  display:block;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  color: #000;
+}
+
+.flot-overlay {
+  cursor: pointer;
 }
 
 .footer {
