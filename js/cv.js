@@ -42,6 +42,14 @@ $(document).ready(function () {
     }
   ];
 
+  $('.pie-chart').bind('plothover', function (event, pos, item) {
+    if (item) {
+      document.body.style.cursor = 'pointer';
+    } else {
+      document.body.style.cursor = 'default';
+    }
+  });
+
   $('.pie-chart').bind('plotclick', function (event, pos, item) {
     if (item) {
       document.location.href = item.series.link;

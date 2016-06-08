@@ -19,10 +19,6 @@ body {
   color: #000;
 }
 
-.flot-overlay {
-  cursor: pointer;
-}
-
 .footer {
   padding-top: 10px;
   border-top: 1px solid #e5e5e5;
